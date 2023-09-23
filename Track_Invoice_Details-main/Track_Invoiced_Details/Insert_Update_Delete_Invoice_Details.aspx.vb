@@ -267,6 +267,7 @@ Public Class Insert_Update_Delete_Invoice_Details
     End Sub
 
     Protected Sub gvInvoiceDetails_RowCommand(sender As Object, e As GridViewCommandEventArgs) Handles gvInvoiceDetails.RowCommand
+
         If e.CommandName = "Select" Then
 
             TrackInvoiceDetails_FormView.ChangeMode(FormViewMode.Edit)

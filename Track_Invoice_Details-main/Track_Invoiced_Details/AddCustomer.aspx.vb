@@ -32,9 +32,7 @@ Public Class AddCustomer
             strError = CStr(objCommand.Parameters("@ERROR_CODE").Value)
 
             If strError = "" Then
-                lblMessage.ForeColor = Green
-                lblMessage.Text = "Customer  Added Succesfully"
-                Response.AppendHeader("Refresh", "2;url=Insert_Update_Delete_Invoice_Details.aspx")
+                AddCustomerPopUp.Show()
             Else
                 lblMessage.ForeColor = Red
                 lblMessage.Text = strError
@@ -51,4 +49,10 @@ Public Class AddCustomer
             Call sb_Insert_Customer()
         End If
     End Sub
+
+    Protected Sub btClose_Click()
+        AddCustomerPopUp.Hide()
+        Response.Redirect("Insert_Update_Delete_Invoice_Details.aspx")
+    End Sub
+
 End Class
