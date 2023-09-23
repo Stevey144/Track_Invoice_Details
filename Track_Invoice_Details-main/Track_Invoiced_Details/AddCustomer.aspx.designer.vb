@@ -41,15 +41,6 @@ Partial Public Class AddCustomer
     Protected WithEvents txtCustomerName As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''lblMessage control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblMessage As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''AddCustomerPopUp control.
     '''</summary>
     '''<remarks>
@@ -95,13 +86,13 @@ Partial Public Class AddCustomer
     Protected WithEvents lblDetailsTestCase As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''modalText control.
+    '''lblMessage control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents modalText As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    Protected WithEvents lblMessage As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''btClose control.
@@ -111,4 +102,13 @@ Partial Public Class AddCustomer
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btClose As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''hdError control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents hdError As Global.System.Web.UI.WebControls.HiddenField
 End Class

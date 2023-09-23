@@ -80,15 +80,6 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Track_Invoiced_Details.AddCustomer._lblMessage">
-<summary>
-lblMessage control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
 <member name="F:Track_Invoiced_Details.AddCustomer._AddCustomerPopUp">
 <summary>
 AddCustomerPopUp control.
@@ -134,9 +125,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Track_Invoiced_Details.AddCustomer._modalText">
+<member name="F:Track_Invoiced_Details.AddCustomer._lblMessage">
 <summary>
-modalText control.
+lblMessage control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -146,6 +137,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Track_Invoiced_Details.AddCustomer._btClose">
 <summary>
 btClose control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Track_Invoiced_Details.AddCustomer._hdError">
+<summary>
+hdError control.
 </summary>
 <remarks>
 Auto-generated field.

@@ -32,10 +32,16 @@ Public Class AddCustomer
             strError = CStr(objCommand.Parameters("@ERROR_CODE").Value)
 
             If strError = "" Then
+                lblMessage.ForeColor = Green
+                lblMessage.Text = "Customer Added Successfully"
                 AddCustomerPopUp.Show()
+                hdError.Value = False
+
             Else
-                lblMessage.ForeColor = Red
+                AddCustomerPopUp.Show()
                 lblMessage.Text = strError
+                lblMessage.ForeColor = Red
+                hdError.Value = True
             End If
 
         End If
@@ -52,7 +58,10 @@ Public Class AddCustomer
 
     Protected Sub btClose_Click()
         AddCustomerPopUp.Hide()
-        Response.Redirect("Insert_Update_Delete_Invoice_Details.aspx")
+        If hdError.Value <> True Then
+            Response.Redirect("Insert_Update_Delete_Invoice_Details.aspx")
+        End If
+
     End Sub
 
 End Class

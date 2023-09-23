@@ -25,7 +25,7 @@
                         <asp:Button Text="ADD" runat="server" OnClick="btn_AddCustomer_Click" /></td>
                 </tr>
             </table>
-            <asp:Label ID="lblMessage" runat="server" Text="" />
+           
         </div>
 
         <asp:ModalPopupExtender ID="AddCustomerPopUp"
@@ -49,7 +49,7 @@
                             <hr />
                             <div class="modal-body">
                                 <center>
-                                    <h2 id="modalText"  runat="server">Customer Added Successfully</h2>
+                                    <h2><asp:Label ID="lblMessage" runat="server" Text="" /></h2>
                                 </center>
 
                             </div>
@@ -67,6 +67,8 @@
             </asp:UpdatePanel>
         </asp:Panel>
         <!--Modal End-->
+            <asp:HiddenField runat="server" ID="hdError" />
     </form>
+
 </body>
 </html>
