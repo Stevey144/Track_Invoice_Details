@@ -41,6 +41,15 @@ Partial Public Class AddCustomer
     Protected WithEvents txtCustomerName As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''lblValidateMessage control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblValidateMessage As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''AddCustomerPopUp control.
     '''</summary>
     '''<remarks>

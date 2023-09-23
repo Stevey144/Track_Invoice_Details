@@ -50,7 +50,8 @@ Public Class AddCustomer
 
     Protected Sub btn_AddCustomer_Click()
         If txtCustomerName.Text = "" Then
-            lblMessage.Text = "please enter a customer name"
+            lblValidateMessage.ForeColor = Red
+            lblValidateMessage.Text = "please enter a customer name"
         Else
             Call sb_Insert_Customer()
         End If

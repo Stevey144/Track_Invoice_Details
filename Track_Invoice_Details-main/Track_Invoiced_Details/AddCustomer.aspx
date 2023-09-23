@@ -14,18 +14,22 @@
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManger1" runat="server" EnablePartialRendering="true" AsyncPostBackTimeout="360000">
         </asp:ScriptManager>
+
         <div style="margin: 0 auto; width: 680px;">
             <div class="head">ADD NEW CUSTOMER</div>
             <table>
                 <tr>
                     <td align="right"><b>Customer Name:</b></td>
                     <td>
-                        <asp:TextBox ID="txtCustomerName" runat="Server" /></td>
+                        <asp:TextBox ID="txtCustomerName" runat="Server" />
+                        <asp:Label ID="lblValidateMessage" runat="server" />
+                    </td>
+                      
                     <td>
                         <asp:Button Text="ADD" runat="server" OnClick="btn_AddCustomer_Click" /></td>
                 </tr>
             </table>
-           
+
         </div>
 
         <asp:ModalPopupExtender ID="AddCustomerPopUp"
@@ -49,7 +53,8 @@
                             <hr />
                             <div class="modal-body">
                                 <center>
-                                    <h2><asp:Label ID="lblMessage" runat="server" Text="" /></h2>
+                                    <h2>
+                                        <asp:Label ID="lblMessage" runat="server" Text="" /></h2>
                                 </center>
 
                             </div>
@@ -67,7 +72,7 @@
             </asp:UpdatePanel>
         </asp:Panel>
         <!--Modal End-->
-            <asp:HiddenField runat="server" ID="hdError" />
+        <asp:HiddenField runat="server" ID="hdError" />
     </form>
 
 </body>
