@@ -20,7 +20,6 @@
             </asp:ScriptManager>
             <div class="formviewdiv">
 
-
                 <div class="head">TRACK INVOICE DETAILS</div>
                 <asp:Label ID="lblMessage" runat="server" Text="" />
 
@@ -448,6 +447,47 @@
                     <PagerStyle HorizontalAlign="Center" CssClass="GridPager" />
                 </asp:GridView>
             </div>
+
+
+            <asp:ModalPopupExtender ID="InsertInvoiceDetailsPopUp"
+                BehaviorID="mpe1"
+                runat="server"
+                PopupControlID="pnlPopup"
+                TargetControlID="hdCardRequest"
+                BackgroundCssClass="modalBackground" />
+
+            <asp:HiddenField ID="hdCardRequest" runat="server" />
+            <asp:Panel ID="pnlPopup" runat="server" CssClass="confirm-dialog">
+                <asp:UpdatePanel ID="UpdatePanel2" runat="server">
+                    <ContentTemplate>
+                        <div class="modal-dialog" role="document" style="border: 2px solid #2aa85e; background-color: #f2f3f2; height: 100%; width: 800px;">
+                            <div class="modal-content" style="width: 700px; margin: 0 auto;">
+                                <br />
+                                <div class="modal-header">
+                                    <%--<h3>Details Test Case</h3>--%>
+                                    <asp:Label ID="lblDetailsTestCase" runat="server" Text="" />
+                                </div>
+                                <hr />
+                                <div class="modal-body">
+                                    <center>
+                                        <h2>
+                                            <asp:Label ID="popUpMessage" runat="server" Text="" /></h2>
+                                    </center>
+
+                                </div>
+
+                                <div class="modal-footer">
+                                    <center>
+                                        <asp:Button ID="btClose" class="btn btn-danger" runat="server" Text="Close" OnClick="btClose_Click" />
+                                        <br />
+                                    </center>
+
+                                </div>
+                            </div>
+                        </div>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+            </asp:Panel>
         </form>
     </div>
 </body>

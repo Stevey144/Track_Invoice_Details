@@ -71,18 +71,18 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Track_Invoiced_Details.AddCustomer._lblValidateMessage">
+<member name="F:Track_Invoiced_Details.AddCustomer._txtCustomerName">
 <summary>
-lblValidateMessage control.
+txtCustomerName control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Track_Invoiced_Details.AddCustomer._txtCustomerName">
+<member name="F:Track_Invoiced_Details.AddCustomer._lblValidateMessage">
 <summary>
-txtCustomerName control.
+lblValidateMessage control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -218,6 +218,69 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Track_Invoiced_Details.Insert_Update_Delete_Invoice_Details._gvInvoiceDetails">
 <summary>
 gvInvoiceDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Track_Invoiced_Details.Insert_Update_Delete_Invoice_Details._InsertInvoiceDetailsPopUp">
+<summary>
+InsertInvoiceDetailsPopUp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Track_Invoiced_Details.Insert_Update_Delete_Invoice_Details._hdCardRequest">
+<summary>
+hdCardRequest control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Track_Invoiced_Details.Insert_Update_Delete_Invoice_Details._pnlPopup">
+<summary>
+pnlPopup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Track_Invoiced_Details.Insert_Update_Delete_Invoice_Details._UpdatePanel2">
+<summary>
+UpdatePanel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Track_Invoiced_Details.Insert_Update_Delete_Invoice_Details._lblDetailsTestCase">
+<summary>
+lblDetailsTestCase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Track_Invoiced_Details.Insert_Update_Delete_Invoice_Details._popUpMessage">
+<summary>
+popUpMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Track_Invoiced_Details.Insert_Update_Delete_Invoice_Details._btClose">
+<summary>
+btClose control.
 </summary>
 <remarks>
 Auto-generated field.

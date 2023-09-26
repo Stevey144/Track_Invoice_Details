@@ -136,9 +136,9 @@ Public Class Insert_Update_Delete_Invoice_Details
                 strError = CStr(objCommand.Parameters("@ERROR_CODE").Value)
 
                 If strError = "" Then
-                    lblMessage.ForeColor = Green
-                    lblMessage.Text = "Record Inserted Succesfully"
-                    Response.AppendHeader("Refresh", "2;url=Insert_Update_Delete_Invoice_Details.aspx")
+                    popUpMessage.ForeColor = Green
+                    InsertInvoiceDetailsPopUp.Show()
+                    popUpMessage.Text = "Record Inserted Succesfully"
                 End If
 
             End If
@@ -187,9 +187,10 @@ Public Class Insert_Update_Delete_Invoice_Details
             strError = CStr(objCommand.Parameters("@ERROR_CODE").Value)
 
             If strError = "" Then
-                lblMessage.ForeColor = Green
-                lblMessage.Text = "Record Deleted Succesfully"
-                Response.AppendHeader("Refresh", "2;url=Insert_Update_Delete_Invoice_Details.aspx")
+                InsertInvoiceDetailsPopUp.Show()
+                popUpMessage.ForeColor = Green
+                popUpMessage.Text = "Record Deleted Successfully"
+
             End If
 
         End If
@@ -257,9 +258,9 @@ Public Class Insert_Update_Delete_Invoice_Details
             strError = CStr(objCommand.Parameters("@ERROR_CODE").Value)
 
             If strError = "" Then
-                lblMessage.ForeColor = Green
-                lblMessage.Text = "Record Updated Succesfully"
-                Response.AppendHeader("Refresh", "2;url=Insert_Update_Delete_Invoice_Details.aspx")
+                popUpMessage.ForeColor = Green
+                InsertInvoiceDetailsPopUp.Show()
+                popUpMessage.Text = "Record Updated Succesfully"
             End If
 
         End If
@@ -352,6 +353,11 @@ Public Class Insert_Update_Delete_Invoice_Details
     Protected Sub gvInvoiceDetails_PageIndexChanging(sender As Object, e As GridViewPageEventArgs) Handles gvInvoiceDetails.PageIndexChanging
         gvInvoiceDetails.PageIndex = e.NewPageIndex
         Call LoadInvoiceDetails_GridviewData()
+    End Sub
+
+    Protected Sub btClose_Click()
+        InsertInvoiceDetailsPopUp.Hide()
+        Response.Redirect("Insert_Update_Delete_Invoice_Details.aspx")
     End Sub
 
 End Class
