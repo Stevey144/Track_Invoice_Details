@@ -13,6 +13,23 @@
 </head>
 
 <body>
+    <script type="text/javascript">
+        function ConfirmDelete() {
+
+            var DeleteRecord = confirm("are you sure you want to delete this Record? you cannot undo this !!");
+
+            if (DeleteRecord) {
+
+                return true;
+            }
+            else {
+                return false;
+            }
+
+        }
+
+
+    </script>
     <div style="width: 100%">
 
         <form id="form1" runat="server">
@@ -120,6 +137,7 @@
                                         Text="Delete"
                                         CssClass="btnDanger"
                                         CommandName="Delete"
+                                        OnClientClick="return ConfirmDelete();"
                                         runat="server" />
 
                                 </td>
