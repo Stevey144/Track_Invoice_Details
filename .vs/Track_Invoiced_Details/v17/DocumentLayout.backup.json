@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|Track_Invoiced_Details\\Track_Invoiced_Details.vbproj|C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\track_invoiced_details\\insert_update_delete_invoice_details.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|Track_Invoiced_Details\\Track_Invoiced_Details.vbproj|solutionrelative:track_invoiced_details\\insert_update_delete_invoice_details.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|Track_Invoiced_Details\\Track_Invoiced_Details.vbproj|c:\\users\\steph\\documents\\track_invoice_details-main\\track_invoiced_details\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|Track_Invoiced_Details\\Track_Invoiced_Details.vbproj|solutionrelative:track_invoiced_details\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|Track_Invoiced_Details\\Track_Invoiced_Details.vbproj|c:\\users\\steph\\documents\\track_invoice_details-main\\track_invoiced_details\\insert_update_delete_invoice_details.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|Track_Invoiced_Details\\Track_Invoiced_Details.vbproj|solutionrelative:track_invoiced_details\\insert_update_delete_invoice_details.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|Track_Invoiced_Details\\Track_Invoiced_Details.vbproj|C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\track_invoiced_details\\addcustomer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|Track_Invoiced_Details\\Track_Invoiced_Details.vbproj|solutionrelative:track_invoiced_details\\addcustomer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|Track_Invoiced_Details\\Track_Invoiced_Details.vbproj|C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\track_invoiced_details\\addcustomer.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|Track_Invoiced_Details\\Track_Invoiced_Details.vbproj|solutionrelative:track_invoiced_details\\addcustomer.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|Track_Invoiced_Details\\Track_Invoiced_Details.vbproj|C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\track_invoiced_details\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|Track_Invoiced_Details\\Track_Invoiced_Details.vbproj|solutionrelative:track_invoiced_details\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\Track_Invoiced_Details\\Web.config",
+              "RelativeDocumentMoniker": "Track_Invoiced_Details\\Web.config",
+              "ToolTip": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\Track_Invoiced_Details\\Web.config",
+              "RelativeToolTip": "Track_Invoiced_Details\\Web.config",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwCMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-07T17:53:21.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Insert_Update_Delete_Invoice_Details.aspx",
+              "DocumentMoniker": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\Track_Invoiced_Details\\Insert_Update_Delete_Invoice_Details.aspx",
+              "RelativeDocumentMoniker": "Track_Invoiced_Details\\Insert_Update_Delete_Invoice_Details.aspx",
+              "ToolTip": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\Track_Invoiced_Details\\Insert_Update_Delete_Invoice_Details.aspx",
+              "RelativeToolTip": "Track_Invoiced_Details\\Insert_Update_Delete_Invoice_Details.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-07T16:37:04.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCustomer.aspx",
+              "DocumentMoniker": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\Track_Invoiced_Details\\AddCustomer.aspx",
+              "RelativeDocumentMoniker": "Track_Invoiced_Details\\AddCustomer.aspx",
+              "ToolTip": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\Track_Invoiced_Details\\AddCustomer.aspx",
+              "RelativeToolTip": "Track_Invoiced_Details\\AddCustomer.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2024-09-07T16:37:03.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\Track_Invoiced_Details\\packages.config",
+              "RelativeDocumentMoniker": "Track_Invoiced_Details\\packages.config",
+              "ToolTip": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\Track_Invoiced_Details\\packages.config",
+              "RelativeToolTip": "Track_Invoiced_Details\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-07T16:37:03.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Insert_Update_Delete_Invoice_Details.aspx.vb",
+              "DocumentMoniker": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\Track_Invoiced_Details\\Insert_Update_Delete_Invoice_Details.aspx.vb",
+              "RelativeDocumentMoniker": "Track_Invoiced_Details\\Insert_Update_Delete_Invoice_Details.aspx.vb",
+              "ToolTip": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\Track_Invoiced_Details\\Insert_Update_Delete_Invoice_Details.aspx.vb",
+              "RelativeToolTip": "Track_Invoiced_Details\\Insert_Update_Delete_Invoice_Details.aspx.vb",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-07T16:37:03.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddCustomer.aspx.vb",
+              "DocumentMoniker": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\Track_Invoiced_Details\\AddCustomer.aspx.vb",
+              "RelativeDocumentMoniker": "Track_Invoiced_Details\\AddCustomer.aspx.vb",
+              "ToolTip": "C:\\Users\\steph\\Documents\\Track_Invoice_Details-main\\Track_Invoiced_Details\\AddCustomer.aspx.vb",
+              "RelativeToolTip": "Track_Invoiced_Details\\AddCustomer.aspx.vb",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-09-07T16:37:04.74Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
